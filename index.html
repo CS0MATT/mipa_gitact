@@ -1,10 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Columban College, Inc.</title>
@@ -14,130 +11,89 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Lato:wght@400;600;700&display=swap" rel="stylesheet">
 
-  
     <link rel="stylesheet" href="style.css">
-
 </head>
-
 
 <body>
 
-    <header class="navbar">
+<header class="navbar">
 
-        <div class="nav-left">
+    <div class="nav-left">
+        <img src="logo.webp" class="nav-logo" alt="Columban College Logo">
 
-            <img src="logo.png" class="nav-logo" alt="Columban College Logo">
+        <div class="nav-text">
+            <span class="nav-title">Columban College</span>
+            <span class="nav-subtitle">Christi simus non nostri</span>
+        </div>
+    </div>
 
-            <div class="nav-text">
-                <span class="nav-title">Columban College</span>
-                <span class="nav-subtitle">Christi simus non nostri</span>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#department">Department</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <a href="#apply" class="nav-btn">Apply Now</a>
+
+</header>
+
+
+<main>
+
+<section class="hero" id="home">
+
+    <div class="hero-inner">
+
+        <!-- LEFT SIDE -->
+        <div class="hero-text">
+
+            <h1 class="hero-title">
+                <span>Columban College</span>
+                <span>Admission</span>
+            </h1>
+
+            <p class="hero-desc">
+                Start your journey at Columban College and become part of
+                a community dedicated to learning, growth, and service.
+            </p>
+
+            <a href="#apply" class="hero-btn">
+                Enroll Now
+            </a>
+
+            <div class="dept-box" id="department">
+
+                <h3>Our Departments</h3>
+
+                <ul>
+                    <li>College of Computer Studies</li>
+                    <li>College of Business Administration</li>
+                </ul>
+
             </div>
 
         </div>
 
 
-        <nav class="nav-right">
+        <!-- RIGHT SIDE -->
+        <div class="hero-visual">
 
-            <ul class="nav-links">
+            <div class="blob blob-dark"></div>
+            <div class="blob blob-blue"></div>
 
-                <li>
-                    <a href="#home" class="active">Home</a>
-                </li>
-
-                <li>
-                    <a href="#home">Department</a>
-                </li>
-
-                <li>
-                    <a href="#home">Contact Us</a>
-                </li>
-
-            </ul>
-
-        </nav>
-
-
-        <a href="#home" class="nav-btn">Apply Now</a>
-
-    </header>
-
-
-   
-    <section class="hero" id="home">
-
-        <div class="hero-inner">
-
-
-            
-            <div class="hero-text">
-
-                <h1 class="hero-title">
-
-                    <span class="line-dark">
-                        Columban College
-                    </span>
-
-                    <span class="line-accent">
-                        Admission
-                    </span>
-
-                </h1>
-
-
-                <p class="hero-desc">
-                    Start your journey at Columban College and become
-                    part of a community dedicated to learning, growth,
-                    and service.
-                </p>
-
-
-                <a href="#home" class="hero-btn">
-                    Enroll Now
-                </a>
-
-
-                
-                <div class="dept-box">
-
-                    <p class="dept-box-title">
-                        Our Departments
-                    </p>
-
-                    <ul class="dept-box-list">
-
-                        <li>
-                            College of Computer Studies
-                        </li>
-
-                        <li>
-                            College of Business Administration
-                        </li>
-
-                    </ul>
-
-                </div>
-
+            <div class="logo-circle">
+                <img src="logo.webp" alt="Columban College Logo">
             </div>
-
-
-            
-            <div class="hero-visual">
-
-                <div class="blob blob-dark"></div>
-
-                <div class="blob blob-light"></div>
-
-                <img src="logo.png"
-                     class="hero-logo-big"
-                     alt="Columban College Logo">
-
-            </div>
-
 
         </div>
 
-    </section>
+    </div>
 
+</section>
+
+</main>
 
 </body>
 </html>
